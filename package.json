@@ -1,0 +1,25 @@
+{
+  "name": "webdriverio-pom-js",
+  "version": "1.0.0",
+  "description": "This is pom framewoork with webdriverIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/local-runner": "^7.25.1",
+    "@wdio/mocha-framework": "^7.25.1",
+    "@wdio/spec-reporter": "^7.25.1",
+    "chai": "^4.0.1",
+    "chromedriver": "^106.0.1",
+    "local-runner": "^0.1.1-alpha",
+    "wdio-chromedriver-service": "^8.0.0",
+    "webdriverio": "^7.25.1"
+  },
+  "dependencies": {
+    "@wdio/cli": "^7.25.1",
+    "jquery": "^3.6.1"
+  }
+}
